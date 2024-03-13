@@ -20,15 +20,15 @@ public class CharTree {
     */
     private static class TreeNode {
 
-        // TODO: Declare private data type char
+
         private char data;
-        // TODO: Declare 2 links, rightLink & leftLink of type TreeNode
+
         private TreeNode rightLink;
         private TreeNode leftLink;
 
         // Parametrized constructor to build a node
         public TreeNode(char newData, TreeNode newLeftLink, TreeNode newRightLink) {
-        // TODO: complete the constructor
+
             data = newData;
             leftLink = newLeftLink;
             rightLink = newRightLink;
@@ -73,7 +73,7 @@ public class CharTree {
         }
     }
 
-    // TODO
+
     private static boolean isInSubtree(char item, TreeNode subTreeRoot) {
     // base case: is subTreeRoot null?    then return false
         if (subTreeRoot == null){

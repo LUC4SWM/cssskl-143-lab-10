@@ -11,7 +11,7 @@ import java.util.*;
  *
  * This class reads in data from a text file ("data.txt") and populates a binary tree with an
  * ordering constraint.  See the lab instructions for more information, but in general, dots go right
- * and dashes go left when constructing or traversing a Morse code tree.  Search for TODO
+ * and dashes go left when constructing or traversing a Morse code tree.  Search for
  * in the code to see what code you have to implement.
  *
  * Start with the constructor. In your constructor read each line in from the text file first,
@@ -47,9 +47,9 @@ public class MorseTree {
 
     // instance variables
 
-    //TODO: Data member called "root" goes here
+    // Data member called "root" goes here
     private TreeNode root;
-    //TODO: Complete the constructor
+    //Complete the constructor
     public MorseTree() {
         root = null;
         Scanner fin;
@@ -80,7 +80,7 @@ public class MorseTree {
         root = insertInSubtree(morseStr, letter, root);
     }
 
-    // TODO: Recursively complete this function. It's only a few characters different from findInSubtree()
+    //Recursively complete this function. It's only a few characters different from findInSubtree()
 	private TreeNode insertInSubtree(String morseStr, char letter, TreeNode subtree) {
 		// base case 1 : subtree is null
         if (subtree == null){
